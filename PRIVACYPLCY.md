@@ -1,4 +1,4 @@
-Effective Date: 7/7/2026 App Name: Cyber Nest Digital Home Safety Android Application Developer: AIA Cyber Risk Solutions Contact: Andrew.Wright@aiacyber.com
+Effective Date: 7/12/2026 App Name: Cyber Nest Digital Home Safety Android Application Developer: AIA Cyber Risk Solutions Contact: Andrew.Wright@aiacyber.com
 
 CyberNest is a personal digital safety app designed to help everyday users and families protect their digital home. The app provides lessons, checklists, reminders, trusted safety guidance, and progress tracking for topics such as accounts, devices, privacy, home Wi-Fi, backups, scams, money safety, and family online habits.
 
@@ -38,9 +38,15 @@ Google Play purchases: If CyberNest is sold as a paid app or includes a one-time
 
 CyberNest does not include advertising SDKs.
 
-CyberNest does not currently use third-party analytics, behavior tracking, or data broker services.
+CyberNest uses Firebase Crashlytics (a service provided by Google) to help us detect and fix app crashes. When the app crashes, Crashlytics automatically collects technical diagnostic information such as your device model, operating system version, app version, and a crash report describing what the app was doing when it stopped working. Crashlytics also assigns an anonymous, app-specific installation identifier to group crash reports from the same device; this identifier is not tied to your name, email address, or any other personal information CyberNest collects.
 
-If third-party services are added in the future, this Privacy Policy will be updated before release to explain what data those services collect, how they use it, and whether it is shared.
+This information is used only to identify, diagnose, and fix bugs in the app. It is not used for advertising, profiling, or resale, and it is not combined with other services to identify you personally. Firebase Crashlytics is only active in released versions of the app, not during local development.
+
+Crashlytics data is processed by Google in accordance with Google's Privacy Policy (https://policies.google.com/privacy) and Firebase's data processing terms.
+
+CyberNest does not use any other third-party analytics, behavior tracking, or data broker services.
+
+If additional third-party services are added in the future, this Privacy Policy will be updated before release to explain what data those services collect, how they use it, and whether it is shared.
 
 App Permissions
 CyberNest is designed to request only the permissions needed for app functionality.
